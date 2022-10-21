@@ -33,4 +33,10 @@
     F. true. Boolean(2) returns true, so true eqauls to true.
 15. == check whether two variables are the same AFTER their conversions. So '2' == 2 is true.
     === check whether two variables are the same WITHOUT conversions. So '2' === 2 is false.
+17. [2, 4, 6]. Through the for loop in function modifyArray, it runs through every number in input array and put them into the new array after calling function callback with input current number. callback(doSomething) will take in that number and multiply by 2 then return the result. So newArray will store array [1 * 2, 2 * 2, 3 * 2] = [2, 4, 6].
+19. 1
+    4
+    3
+    2
+    
     
